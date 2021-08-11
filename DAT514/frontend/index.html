@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+ <style>
+</style>
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <title>What Should I Do Today?</title>    
+</head>
+<body>
+    
+  
+  <div class="box-0">
+    <p1>Handcoded with elegance and finess by Metin Sen, Plymouth University</p1>
+</div>
+
+<div class="box-1">
+    <p1>What Should I Do Today?</p1>
+</div>
+<br>
+<div class="box-2">
+    <p1>For today, my task will be to:</p1>
+   </div>
+
+  
+<div class="box-3">
+  <br>
+  <p></p>
+<button onclick="generatetext();">Generate Task</button>
+</div>
+
+</body>
+ 
+<script>
+
+  function generatetext() {
+      var task = ["Go to the gym - Weights", "Go for a walk", "Go to the gym - Cardio", "Go to the gym - Legs", "Go to the gym - General mixed workout",
+   "Go to the gym - light workout", "Go for a run", "Focus on cleaning at home", "Check for required groceries and restock", "Get a head start on studies / work prep", 
+   "Sorting kitchen & laundry", "Clean room", "Keep up to date with e-mails and assignment tasks", "Poop", "Extra free time!"];
+      var para = document.querySelector('p');
+      para.innerHTML = task[Math.floor(Math.random() * task.length)]
+  }
+  
+  </script>
+
+<div class="box-4">
+  <br>
+  <p2></p2>
+  
+<button onclick="generatetime();">Generate Time</button>
+</div>
+
+  <script>
+
+  function generatetime() {
+      var time = ["for 30 minutes", "for 1 hour", "for 1 ½ hours", "for 2 hours", "for 2 ½ hours", "for 3 hours"];
+      var para = document.querySelector('p2');
+      para.innerHTML = time[Math.floor(Math.random() * time.length)]
+  }
+  
+  </script>
+
+<div class="box-5">
+  <p1>What is this?</p1>
+  <br>
+  <p1>Basically, I am both irresponsible and lazy. I forget the easiest of things and get overwhelmed by multiple tasks because of said laziness.
+    This simple app is here to help me decide what important(ish) thing to do that day and how long to do it for!
+  </p1>
+</div>
+</html>
+

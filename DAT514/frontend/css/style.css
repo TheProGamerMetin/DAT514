@@ -1,0 +1,130 @@
+body {
+
+margin: 0;
+background-color: #F8C537;
+}
+
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+
+h1 {
+
+text-align: center;
+vertical-align: middle;
+
+
+}
+
+h4{
+
+text-align: center;   
+vertical-align: middle;
+
+}
+
+.box-0{
+
+    width: 550px;
+    height: 1px;
+    margin: 10px auto;
+    margin-bottom: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 1px 1px #E77728;
+    color: #6b3713;
+
+}
+
+.box-1{
+
+    width: 1000px;
+    height: 100px;
+    margin: 50px auto;
+    margin-bottom: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 3px 3px #FFDDA1;
+    text-decoration: underline;
+    color: #E77728;
+
+}
+
+.box-2{
+
+    width: 1000px;
+    height: 50px;
+    margin: 2px auto;
+    margin-top: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 3px 3px #FFDDA1;
+    text-decoration: underline;
+    color: #E77728;
+   
+}
+
+
+.box-3{
+
+    width: 1000px;
+    height: 140px;
+    display: block;
+    margin: 50px auto;
+    background-color: #FFD151;
+    box-shadow: 6px 6px #FFDDA1;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 300px;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 3px 3px #FFDDA1;
+    color: #E77728;
+   
+
+}
+
+.box-4{
+
+    width: 1000px;
+    height: 140px;
+    display: block;
+    margin: 50px auto;
+    background-color: #FFD151;
+    box-shadow: 6px 6px #FFDDA1;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 300px;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 3px 3px #FFDDA1;  
+    color: #E77728;
+   
+
+}
+
+.box-5{
+
+    width: 1000px;
+    height: 70px;
+    display: block;
+    margin: 50px auto;
+    background-color: #FFD151;
+    box-shadow: 6px 6px #FFDDA1;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 300px;
+    font-size: 16px;
+    text-align: center;
+    text-shadow: 3px 3px #FFDDA1;  
+    color: #8f4a19;
+   
+
+}
